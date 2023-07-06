@@ -1,0 +1,23 @@
+@import "../../assets/scss/theme.scss";
+
+// .apexcharts-canvas {
+//   text {
+//     fill: $text-muted !important;
+//   }
+// }
+
+div.table-wrapper {
+    height: 550px;
+    width: 100%;
+    overflow-y: auto;
+    z-index:999;
+   }
+   
+   table {
+     width: 100%;
+   }
+   table thead tr th {
+     position: sticky;
+     top: 0px;
+     z-index: 99;
+   }

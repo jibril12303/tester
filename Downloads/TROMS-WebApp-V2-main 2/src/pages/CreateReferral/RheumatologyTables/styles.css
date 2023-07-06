@@ -1,0 +1,64 @@
+/* input:focus{
+    outline: none !important;
+    border-color:#719ECE;
+    box-shadow: 0 0 10px #719ECE;
+} */
+
+input:focus{
+    outline-style: none !important;
+    box-shadow: none !important;
+  }
+
+.errorBorder{
+    border-color:#f46a6a !important;
+    box-shadow: 0 0 10px #f46a6a !important;
+}
+.errorRow{
+    /* background-color: #FCDADA !important; */
+    border: 2px solid #FCDADA !important;
+}
+
+.DelteIcondDiv{
+    height: 36.33px;
+    width: 50px;
+    padding: 9px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.image-name-div{
+    min-height: 36.33px;
+    /* min-width: 192.94px; */
+    padding: 9px;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-row{
+    flex-direction: row;
+    align-items: center;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.gap5{
+    gap: 5px;
+}
+
+.img-button{
+    margin: 0px;
+    width: 49px;
+    /* margin: 0; */
+    padding: 0px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+

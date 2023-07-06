@@ -1,0 +1,140 @@
+{
+    "Layout": {
+        "layoutType": "vertical",
+        "layoutWidth": "fluid",
+        "leftSideBarTheme": "dark",
+        "leftSideBarThemeImage": "none",
+        "leftSideBarType": "default",
+        "topbarTheme": "light",
+        "isPreloader": false,
+        "showRightSidebar": false,
+        "isMobile": false,
+        "showSidebar": true,
+        "leftMenu": false
+    },
+    "appReducer": {
+        "loading": false,
+        "error": null,
+        "userDetails": {
+            "organisation": [],
+            "_id": "61697a8e19ddca001627e63e",
+            "email": "christiantest@nhs.net",
+            "appRole": "REFERRING_CLINICIAN",
+            "authorisationCode": "bcb656ef",
+            "landLine": "01218888888",
+            "profileAvailable": false,
+            "policyAccepted": false,
+            "__v": 0,
+            "password": "$2b$10$dG0e0P9TAkeVpx8QAm/UBe2GXGioPujH5/KBoXpB6GL4JJzgNsM2u",
+            "token": "6ca9b58edce7723ff0de683e918afa3ba8336dcc29d7556f",
+            "tokenExpiryDate": "2021-10-20T12:21:58.486Z"
+        },
+        "alertBoxData": null,
+        "token": "6ca9b58edce7723ff0de683e918afa3ba8336dcc29d7556f"
+    },
+    "Login": { "error": {}, "loading": false },
+    "Account": {
+        "error": null,
+        "message": null,
+        "isLoading": false,
+        "user": null,
+        "email": null,
+        "role": null,
+        "configdata": null
+    },
+    "ForgetPassword": {
+        "isLoading": null,
+        "error": null,
+        "successresetpw": null,
+        "alertmsg": null,
+        "status": null,
+        "email": null
+    },
+    "Profile": { "error": "", "success": "" },
+    "ecommerce": {
+        "products": [],
+        "product": {},
+        "orders": [],
+        "cartData": {},
+        "customers": [],
+        "shops": [],
+        "error": {},
+        "productComments": []
+    },
+    "calendar": { "events": [], "categories": [], "error": {} },
+    "chat": {
+        "chats": [],
+        "groups": [],
+        "contacts": [],
+        "messages": [],
+        "error": {}
+    },
+    "mails": {
+        "inboxmails": [],
+        "starredmails": [],
+        "importantmails": [],
+        "draftmails": [],
+        "sentmails": [],
+        "trashmails": [],
+        "error": {}
+    },
+    "crypto": { "wallet": {}, "orders": [] },
+    "invoices": { "invoices": [], "invoiceDetail": {}, "error": {} },
+    "projects": { "projects": [], "projectDetail": {}, "error": {} },
+    "tasks": { "tasks": [], "error": {} },
+    "contacts": { "users": [], "userProfile": {}, "error": {} },
+    "Dashboard": {
+        "chartsData": {},
+        "loading": false,
+        "caseAmounts": {},
+        "refcaseAmounts": {}
+    },
+    "DashboardSaas": { "sellingData": [], "earningChartData": [] },
+    "CreateReferral": {
+        "loading": false,
+        "pathways": [
+            {
+                "name": "Watery or sticky eyes",
+                "endpoint": "opticWateryEyes",
+                "flag": "eyes"
+            },
+            {
+                "name": "Optic nerve concerns",
+                "endpoint": "opticNerve",
+                "flag": "eyes"
+            },
+            {
+                "name": "Retinal Anomaly",
+                "endpoint": "opticRetinalAnomaly",
+                "flag": "eyes"
+            },
+            {
+                "name": "Abnormal red reflex",
+                "endpoint": "opticAbnormalRedReflex",
+                "flag": "eyes"
+            },
+            {
+                "name": "Eye alignment/movement problem",
+                "endpoint": "opticAlignmentProblems",
+                "flag": "eyes"
+            }
+        ],
+        "error": null,
+        "caseDetails": {
+            "patient": {
+                "firstName": "Alec",
+                "lastName": "Crane",
+                "dateOfBirth": "09/02/2003",
+                "NHSNumber": "9465736520",
+                "parent": {
+                    "firstName": "Christian",
+                    "lastName": "Clarke",
+                    "contactNumber": "07542754674",
+                    "emailAddress": "christian@caprihealthcare.co.uk"
+                }
+            },
+            "message": "Patient created successfully",
+            "caseID": "1302100091"
+        }
+    }
+}
